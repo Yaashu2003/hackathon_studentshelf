@@ -1,10 +1,8 @@
 <?php
-$servername = "localhost"; // Change if using a remote server
-$username = "root"; // Your MySQL username
-$password = ""; // Your MySQL password
-$dbname = "test"; // Your database name
-
-// Create connection
+$servername = "localhost"; 
+$username = "root"; 
+$password = "";
+$dbname = "test"; 
 $mysqli = new mysqli($servername, $username, $password, $dbname);
 
 // Check connection
